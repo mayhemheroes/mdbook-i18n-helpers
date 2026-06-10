@@ -1,0 +1,7 @@
+project: mdbook-i18n-helpers
+target: group_events
+testsuite:
+  - file:///mayhem/mayhem/testsuite/group_events
+cmds:
+  - cmd: /mayhem/group_events
+    libfuzzer: true

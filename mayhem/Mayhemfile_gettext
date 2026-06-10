@@ -1,0 +1,7 @@
+project: mdbook-i18n-helpers
+target: gettext
+testsuite:
+  - file:///mayhem/mayhem/testsuite/gettext
+cmds:
+  - cmd: /mayhem/gettext
+    libfuzzer: true

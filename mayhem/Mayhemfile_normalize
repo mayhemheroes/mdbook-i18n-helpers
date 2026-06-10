@@ -1,0 +1,7 @@
+project: mdbook-i18n-helpers
+target: normalize
+testsuite:
+  - file:///mayhem/mayhem/testsuite/normalize
+cmds:
+  - cmd: /mayhem/normalize
+    libfuzzer: true
